@@ -29,11 +29,8 @@ IPurple='\e[0;95m'      # Purple
 ICyan='\e[0;96m'        # Cyan
 IWhite='\e[0;97m'       # White
 
-# PATH variable
-export PATH="/usr/local/git/bin:/usr/bin/subl:/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:$PATH"
-
-# Sublime Text 2 Symlink
-export EDITOR="subl -w"
+# Enviroment variables
+export PATH="/usr/local/git/bin:/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:$PATH"
 
 # Bash Prompt
 PS1="\[$Blue\]\u\[$Green\]@\[$Cyan\]\w\[$Green\]\$ \[$Black\]"
